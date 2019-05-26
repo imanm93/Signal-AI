@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/imanm93/Signal-AI.svg?branch=master)](https://travis-ci.org/imanm93/Signal-AI)
 
-Task: Convert an integer from 1 to 1000, inclusive, to it's grammatically correct English phrase.
+Convert an integer from 1 to 1000, inclusive, to it's grammatically correct English phrase.
 
 ## Install
 
