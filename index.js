@@ -48,7 +48,7 @@ module.exports = function (num) {
   let index = 0;
 
   while (num > 0) {
-    if (num % 1000 != 0) {
+    if (num % 1000 != 0) { // Ignore if 0
         ans = helper(num % 1000) + " " + units[index] + " " + ans;
     }
     index++;
@@ -72,14 +72,14 @@ function helper(num) {
     ans = "";
   }
   else if (num < 20) {
-    ans = zeroToTens[num];
+    ans = zeroToTens[num]; // Retrieve english word from dict
   }
   else if (num < 100) {
-    ans = zeroToTens[Math.floor(num / 10) * 10];
+    ans = zeroToTens[Math.floor(num / 10) * 10]; // Convert to tens and retrieve english word from dict
     if (num % 10 != 0) ans += "-" + zeroToTens[num % 10];
   }
   else {
-    ans = zeroToTens[Math.floor(num / 100)] + " Hundred ";
+    ans = zeroToTens[Math.floor(num / 100)] + " Hundred "; // Add keyword hundred
     if (num % 100 != 0) ans += "and " + helper(num % 100);
   }
 
