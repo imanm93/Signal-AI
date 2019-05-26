@@ -22,3 +22,17 @@ console.log(numberToWords(151));
 // result "One Hundred and Fifty-One"
 
 ```
+
+## Development
+
+To start development, first install npm dependencies
+
+```
+npm install
+```
+
+To run tests
+
+```
+npm run test
+```

@@ -6,16 +6,8 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imanm93/Signal-AI.git"
-  },
   "author": "Iman Kalyan Majumdar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imanm93/Signal-AI/issues"
-  },
-  "homepage": "https://github.com/imanm93/Signal-AI#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
